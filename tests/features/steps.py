@@ -24,9 +24,9 @@ def when_group1_won_the_group2_set_group3_group4(step, jugador,
                                                  punto2):
     world.match.ganoSet(jugador)
     world.match.guardarPuntuacion(punto1,
-                               punto2,
-                               nset,
-                               jugador)
+                                  punto2,
+                                  nset,
+                                  jugador)
 
 
 @step(u'And: "([^"]*)" won the "([^"]*)" set "([^"]*)"-"([^"]*)"')
@@ -35,9 +35,9 @@ def and_group1_won_the_group2_set_group3_group4(step, jugador,
                                                 punto2):
     world.match.ganoSet(jugador)
     world.match.guardarPuntuacion(punto1,
-                               punto2,
-                               nset,
-                               jugador)
+                                  punto2,
+                                  nset,
+                                  jugador)
 
 
 @step(u'Then: The match score is: "([^"]*)"')

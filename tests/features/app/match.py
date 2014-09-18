@@ -58,5 +58,9 @@ class Match:
             self.score[0] = self.ordenarPuntuacion(
                 jugadorGanador, puntos1, puntos2)
         else:
-            self.score.insert(self.opcionset.get(
-                nSets), self.ordenarPuntuacion(jugadorGanador, puntos1, puntos2))
+            self.score.insert(
+                self.opcionset.get(nSets),
+                self.ordenarPuntuacion(
+                    jugadorGanador,
+                    puntos1,
+                    puntos2))
