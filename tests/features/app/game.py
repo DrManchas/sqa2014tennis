@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Al inicio del juego cómo debe de estar el score?
 >>> Game().score()
